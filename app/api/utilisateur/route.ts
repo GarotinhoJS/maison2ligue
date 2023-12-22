@@ -9,6 +9,7 @@ export async function GET(request: NextApiRequest) {
 
     // Requête SQL pour sélectionner toutes les formations de la table 'formation'
     const selectFormationsQuery = 'SELECT * FROM utilisateur WHERE utilisateur.email = ?';
+    // TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE TIMOTHEE 
 
     // Exécutez la requête et récupérez les résultats
     const [rows] = await connection.query(selectFormationsQuery);
