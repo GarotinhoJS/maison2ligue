@@ -6,7 +6,7 @@ interface User {
   nom?: string | null | undefined;
   prenom?: string | null | undefined;
   email?: string | null | undefined;
-  id?: number | null | undefined;
+  id?: string | null | undefined;
 
 }
 
@@ -19,7 +19,7 @@ const Profil = () => {
 
   useEffect(() => {
     if (status === 'authenticated' && session && session.user) {
-      // Ajoutez le paramètre d'email à la requête pour filtrer les formations par utilisateur
+      
       fetch(`http://localhost:3000/api/utilisateur?email=${session.user.email}`)
         .then((res) => {
           if (!res.ok) {
@@ -57,6 +57,7 @@ const Profil = () => {
               <h2>{item.nom}</h2>
               <p>{item.prenom}</p>
               <p>{item.id}</p>
+              <p>{item.email}</p>
               <div></div>
             </div>
           </div>
