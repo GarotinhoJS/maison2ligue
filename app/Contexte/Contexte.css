@@ -1,0 +1,81 @@
+.Corp11{
+    
+    height: 1000px;
+    
+   
+    
+    
+    
+    }
+
+    
+    .Corp12{
+       
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+  
+     
+    
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Edu+TAS+Beginner&display=swap');
+    .Corp11 h1{
+       
+        font-family: 'Edu TAS Beginner', cursive;
+        
+        font-size: 3.5rem;
+    
+        font-weight: 800;
+        background: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        margin-top: 5%;
+        margin-bottom: 5%;
+         text-align: center
+    }
+    
+    
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+    .Corp12 p{
+        font-family: 'Bebas Neue', sans-serif;
+        text-transform: uppercase;
+        font-size: 2.1rem;
+       
+        color: #fff;
+        font-weight: 600;
+        height: 500px;
+       width: 30%;
+      
+       
+        background: url('../../style/img/azat.png') no-repeat;
+        background-size: 70%;
+       
+    }
+    
+    .conta{
+      
+        height: 500px;
+        
+        border: solid 1px rgb(122, 245, 159);
+        margin-right: 3%
+        
+        }
+    
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        .Corp12 h4{
+            font-family: 'Bebas Neue', sans-serif;
+           
+            font-size: 1.1rem;
+           
+            color: #fff;
+            font-weight: 600;
+            height: 300px;
+            width: 30%;
+         margin-top: 5%;
+           
+            
+            
+        }
+        

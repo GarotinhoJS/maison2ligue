@@ -1,0 +1,134 @@
+/* styles.css */
+
+.barre h1{
+margin-bottom: 60%;
+
+}
+
+.debut h2{
+
+
+
+}
+
+
+.debut {
+    
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+ 
+}
+
+.debut > div {
+  width: 100%;
+  padding-top: 5rem;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+ 
+}
+
+.debut > div > div {
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s;
+  background-color: white;
+
+}
+
+.debut > div > div:hover {
+  transform: scale(1.05);
+}
+
+.debut > div > div > h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+  
+}
+
+.debut > div > div > p:nth-child(2) {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+ 
+}
+
+.debut > div > div > p:nth-child(3) {
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+.debut > div > div > div {
+  text-align: center;
+  font-weight: medium;
+  
+}
+
+.debut > div > div > div > p {
+  padding-top: 2rem;
+  border-bottom: 1px solid #000;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.debut > div > div > button {
+  background-color: rgb(190, 6, 251);
+  width: 200px;
+  border-radius: 0.25rem;
+  font-weight: medium;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.search-bar {
+  margin-top: 10px;
+  width: 5010%;
+  max-width: 300px; /* Ajustez la largeur maximale selon vos préférences */
+ 
+  padding: 10px;
+  border: none; /* Retire le cadre */
+  border-bottom: 1px solid #ffffff; /* Ajoute une ligne de séparation en bas */
+
+
+}
+
+/* Styles pour l'icône de recherche */
+.search-icon {
+  margin-right: 10px; /* Marge à droite de l'icône */
+  color: #888; /* Couleur de l'icône */
+}
+
+/* Styles pour le placeholder */
+input::placeholder {
+  /* Retire le cadre du placeholder */
+  outline: none;
+}
+/* Supprimer la bordure du champ de recherche */
+input[type="text"] {
+  border: none;
+  outline: none; /* Supprime la mise en évidence lors du focus */
+  background: transparent; /* Rend le fond transparent */
+
+}
+
+.debut h2 p {
+  color: #000000;
+} 
